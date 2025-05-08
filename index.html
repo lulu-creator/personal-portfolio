@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leul | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">Leul</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="dark-mode-toggle" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hey there, I'm <span class="highlight">Leul</span></h1>
+                <p class="subtitle">Pre-Engineering Student at AAiT</p>
+                <p class="tagline">Crafting digital experiences with code and creativity</p>
+                <div class="cta-container">
+                    <a href="#contact" class="cta-button">Let's Connect <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <p class="quote">"The only way to do great work is to love what you do."</p>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="photo_2025-05-06_17-51-21.jpg" alt="Leul's Photo" class="profile-image" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    As a passionate pre-engineering student at AAiT, I blend analytical thinking with creative problem-solving. 
+                    My journey in technology is driven by curiosity and a desire to create meaningful digital solutions. 
+                    Whether it's building responsive websites, exploring AI concepts, or solving mathematical challenges, 
+                    I'm constantly pushing the boundaries of what's possible.
+                </p>
+                <p style="margin-top: 1.5rem;">
+                    When I'm not coding, you'll find me exploring new technologies, 
+                    contributing to open-source projects, or sharing my knowledge with the tech community. 
+                    My goal is to make technology more accessible and create solutions that make a difference.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <span>Python</span>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <span>HTML</span>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS</span>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-brain"></i>
+                <span>AI</span>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-square-root-alt"></i>
+                <span>Math</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Smart Calculator</h3>
+                <p>A modern web-based calculator that handles complex expressions with a clean, intuitive interface.</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Responsive Landing Page</h3>
+                <p>A sleek, modern landing page design that adapts perfectly to all devices.</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>UI/UX</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>AI Logic Explorer</h3>
+                <p>An interactive web application for visualizing and experimenting with AI and mathematical logic concepts.</p>
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>AI</span>
+                    <span>Math</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Let's Connect</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:leulabiti97@gmail.com">leulabiti97@gmail.com</a>
+                </p>
+                <p>
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/lulu-creator" target="_blank">lulu-creator</a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <a href="https://x.com/leulleo8" target="_blank">@leulleo8</a>
+                </p>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Any enquiries...." required></textarea>
+                </div>
+                <button type="submit" class="submit-button">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Leul. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html> 
